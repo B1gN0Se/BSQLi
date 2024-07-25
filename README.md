@@ -1,4 +1,4 @@
-#Blind SQLi script
+Blind SQLi script
 
 for single url:
 
