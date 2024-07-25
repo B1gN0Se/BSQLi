@@ -1,4 +1,4 @@
-BEST SQLI METHODLOGY BY ME:
+#Blind SQLi script
 
 for single url:
 
