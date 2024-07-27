@@ -6,9 +6,9 @@ python3 lostsec.py -u "http://testphp.vulnweb.com/artists.php?artist="  -p paylo
 
 for multiple urls:
 
-paramspider -d testphp.vulnweb.com -o urls.txt
+paramspider -d testphp.vulnweb.com -s >> urls.txt
 
-cat output/urls.txt | sed 's/FUZZ//g' >final.txt
+cat urls.txt | sed 's/FUZZ//g' >> final.txt
 
 python3 lostsec.py -l final.txt -p payloads/xor.txt -t 5
 
