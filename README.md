@@ -1,12 +1,8 @@
 ## Blind SQLi script
 
-For single url:
 ```sh
-python3 lostsec.py -u "http://testphp.vulnweb.com/artists.php?artist="  -p payloads/xor.txt -t 5
+git clone https://github.com/B1gN0Se/BSQLi.git
 ```
-
-for multiple urls:
-
 ```sh
-python3 lostsec.py -l final.txt -p payloads/xor.txt -t 5
+cd BSQLi.git && python3 lostsec.py
 ```
